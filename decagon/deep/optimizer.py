@@ -9,7 +9,7 @@ class DecagonOptimizer(object):
     def __init__(self, embeddings, latent_inters, latent_varies,
                  degrees, edge_types, edge_type2dim, placeholders,
                  margin=0.1, neg_sample_weights=1., batch_size=100):
-        self.embeddings= embeddings
+        self.embeddings = embeddings
         self.latent_inters = latent_inters
         self.latent_varies = latent_varies
         self.edge_types = edge_types

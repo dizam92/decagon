@@ -192,6 +192,7 @@ print("Edge types:", "%d" % num_edge_types)
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS
+# flags.DEFINE_string('f', '', 'kernel')
 flags.DEFINE_integer('neg_sample_size', 1, 'Negative sample size.')
 flags.DEFINE_float('learning_rate', 0.001, 'Initial learning rate.')
 flags.DEFINE_integer('epochs', 50, 'Number of epochs to train.')
